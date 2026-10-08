@@ -10,7 +10,7 @@ df = pd.read_csv('macrodatos_poblacion_colombia-v2.csv', sep=';')
 x = df['Año']
 y = df['Poblacion_Total']
 
-
+    
 def crear_matriz(eje_x):
     cantidad_datos = len(eje_x)
     # Creamos una matriz de 20x20 llena de ceros
